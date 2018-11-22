@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Assignment2</string>
+
+    <string name="menu_new_game">New Game</string>
+    <string name="menu_end_game">End Game</string>
+    <string name="menu_how_to_play">How to play</string>
+
+    <string-array name="how_to_play_rules">
+        <item>1. Click on New Game to start a new game.</item>
+        <item>2. Click on End Game to quit game and declare winner.</item>
+        <item>3. Score board on bottom of screen.</item>
+        <item>5. Each player get 2 clicks only in each turn.</item>
+        <item>6. On matching a pair of color 1 point added to score.</item>
+        <item>7. Already matched cards cant be clicked again.</item>
+        <item>8. After each turn colors will be changed for all unmatched cards.</item>
+    </string-array>
+
+    <string name="live_comments">Live Comments</string>
+
+    <string name="score_table_name">Score Board</string>
+    <string name="column1">Player</string>
+    <string name="column2">Clicks</string>
+    <string name="column3">Score</string>
+
+    <string name="player1_name">P1</string>
+    <string name="player2_name">P2</string>
+    <string name="player1_score">0</string>
+    <string name="player2_score">0</string>
+    <string name="player1_clicks">0</string>
+    <string name="player2_clicks">0</string>
+</resources>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.example.example027.MainActivity" >
+    <item
+        android:id="@+id/menu_new_game"
+        android:orderInCategory="100"
+        app:showAsAction="never"
+        android:title="@string/menu_new_game" />
+
+    <item
+        android:id="@+id/menu_end_game"
+        android:orderInCategory="101"
+        app:showAsAction="never"
+        android:title="@string/menu_end_game" />
+
+    <item
+        android:id="@+id/menu_how_to_play"
+        android:orderInCategory="102"
+        app:showAsAction="never"
+        android:title="@string/menu_how_to_play" />
+</menu>

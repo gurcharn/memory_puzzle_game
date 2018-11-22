@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <com.mobiledevelopent.gurcharnsinghsikka.assignment2.CustomView
+        android:id="@+id/custom_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        />
+
+    <TextView
+        android:id="@+id/live_comment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/live_comments"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:layout_above="@+id/score_table" />
+
+    <TableLayout
+        android:id="@+id/score_table"
+        android:paddingBottom="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom = "true" >
+
+        <TableRow
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:text="@string/score_table_name"
+                android:textSize="30dp"
+                android:textColor="@color/colorBlack"/>
+        </TableRow>
+
+        <TableRow
+            android:layout_weight="1"
+            android:padding="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:text="@string/column1"
+                android:textSize="20dp"
+                android:textColor="@color/colorBlack" />
+            <TextView
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="2"
+                android:text="@string/column2"
+                android:textSize="20dp"
+                android:textColor="@color/colorBlack" />
+            <TextView
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="3"
+                android:text="@string/column3"
+                android:textSize="20dp"
+                android:textColor="@color/colorBlack" />
+        </TableRow>
+
+        <TableRow
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/player1_name"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:text="@string/player1_name"
+                android:textSize="18dp"
+                android:textColor="@color/colorBlack" />
+            <TextView
+                android:id="@+id/player1_clicks"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="2"
+                android:text="@string/player1_clicks"
+                android:textSize="18dp"
+                android:textColor="@color/colorBlack" />
+            <TextView
+                android:id="@+id/player1_score"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="3"
+                android:text="@string/player1_score"
+                android:textSize="18dp"
+                android:textColor="@color/colorBlack" />
+        </TableRow>
+
+        <TableRow
+            android:layout_weight="1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:id="@+id/player2_name"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_column="1"
+                android:text="@string/player2_name"
+                android:textSize="18dp"
+                android:textColor="@color/colorBlack" />
+            <TextView
+                android:id="@+id/player2_clicks"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="2"
+                android:text="@string/player2_clicks"
+                android:textSize="18dp"
+                android:textColor="@color/colorBlack" />
+            <TextView
+                android:id="@+id/player2_score"
+                android:layout_weight="1"
+                android:textAlignment="center"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_column="3"
+                android:text="@string/player2_score"
+                android:textSize="18dp"
+                android:textColor="@color/colorBlack" />
+        </TableRow>
+    </TableLayout>
+
+</RelativeLayout>
